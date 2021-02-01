@@ -1,0 +1,18 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#heading{
+    text-align: center;
+    color: white;
+}
+
+#headshot{
+    width: 300px;
+    height: 300px;
+}
+
+#container{
+    color: white;
+}
