@@ -6,7 +6,7 @@ Web Programming
 3 February 2021-->
 <html>
     <!---2) external stylesheet-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <head>
         <!---4) Title of web page-->
         <TITLE>Johnathan Nguyen's Web Page</TITLE>
@@ -16,9 +16,10 @@ Web Programming
     <body background = "./images/sky.webp">
         <div id="heading">
             <!--- 4) Heading of web page-->
-            <h1>Welcome to my Web Programming Portfolio</h1>
+            <h1>Welcome to My Web Programming Portfolio</h1>
             <!---5) CS Department home page-->
             <a href="http://www.cs.gsu.edu">Georgia State University Computer Science Department Home Page</a>
+            <br>
             <br>
             <!---6) Headshot of me followed by name centered with the heading and image-->
             <img id="headshot" src = "./images/headshot.jpg">
@@ -27,33 +28,108 @@ Web Programming
 
         <div id="container">
             <!---7) Table that links to Assignments and Projects-->
-            <h3>Links to Assignments and Projects</h3>
+            
+            <h3> Links to Assignments and Projects </h3>
+            <table id="work">
+                <tr id="firstrow">
+                    <td>Projects</td>
+                    <td>Classwork</td>
+                    <td>Homework</td>
+                </tr>
+                <tr>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/PW/1/index.html">Project 1</td></a>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/CW/0/CW00/format.html">CW00</td></a>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/HW/1/index.html">HW01</td></a>
+                </tr>
+                <tr>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/PW/2/index.html">Project 2</td></a>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/CW/1/index.html">CW01</td></a>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/HW/2/index.html">HW02</td></a>
+                </tr>
+                <tr>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/PW/3/index.html">Project 3</td></a>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/CW/2/index.html">CW02</td></a>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/HW/3/index.html">HW03</td></a>
+                </tr>
+                <tr>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/PW/4/index.html">Final Project</td></a>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/CW/3/index.html">CW03</td></a>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/HW/4/index.html">HW04</td></a>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/CW/4/index.html">CW04</td></a>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/HW/5/index.html">HW05</td></a>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/CW/5/index.html">CW05</td></a>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/HW/6/index.html">HW06</td></a>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/CW/6/index.html">CW06</td></a>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/CW/7/index.html">CW07</td></a>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://codd.cs.gsu.edu/~jnguyen113/WP/CW/8/index.html">CW08</td></a>
+                    <td></td>
+                </tr>
+            </table>
+            
 
 
              <!---8) Hobbies or interest & 9)link to hobbies or interest-->
-            <h3>List of Hobbies</h3>
+            <h3>List of Hobbies & Interest</h3>
             <ul>
-                <a href="https:spikeball.com"><li>Spikeball</li></a>
-                <a href="https:usapowerlifting.com"><li>Powerlifting</li></a>
-                <li>Guitar</li>
-                <li>Cooking</li>
-                <li>Reading</li>
+                <li>Sports</li>
+                    <ul>
+                        <a href="https://spikeball.com"><li>Spikeball</li></a>
+                        <a href="https://usapowerlifting.com"><li>Powerlifting</li></a>
+                        <li>Football</li>
+                        <li>Ultimate Frisbee</li>
+                    </ul>
                 <li>Gaming</li>
+                    <ul>
+                        <a href="https://playvalorant.com/en-us/"><li>Valorant</li></a>
+                        <a href="https://na.leagueoflegends.com/en-us/"><li>League of Legends</li></a>
+                        <li>Among Us</li>
+                    </ul>
+                <li>Volunteering</li>
+                    <ul>
+                        <a href="https://georgia.ja.org"><li>Junior Achievement of Georgia</li></a>
+                        <a href="https://habitat.org"><li>Habitat for Humanity</li></a>
+                    </ul>
+                <li>Reading</li>
+                    <ul>
+                        <li>High Performance Books</li>
+                        <li>Investing Books</li>
+                        <li>New Web Technology Articles</li>
+                    </ul>
+                <li>Movies/TV Shows</li>
+                    <ul>
+                        <li>How I Met Your Mother</li>
+                        <li>Fast and Furious</li>
+                        <li>Friends</li>
+                        <li>Game of Thrones</li>
+                    </ul>
             </ul>
 
-            <h3>List of Interest</h3>
-            <ul>
-                <a href="https:georgia.ja.org"><li>Volunteering</li></a>
-                <li>Football</li>
-                <li>Investing</li>
-            </ul>
 
+            
             <!---10) nested list-->
-            <h3>Education and Job History</h3>
+
+            <h3>Education</h3>
             <ul>
                 <li>Elementary - Middle School</li>
                     <ul>
-                        <li>Minor Elementary SChool</li>
+                        <li>Minor Elementary School</li>
                         <li>St. John Neumann</li>
                     </ul>
                 <li>High School</li>
@@ -65,12 +141,12 @@ Web Programming
                         <li>Georgia State University</li>
                     </ul>
                 
-                
             </ul>
+            <h3>Job History</h3>
             <ol>
                 <li>Onsite Computer Support</li>
                     <ul>
-                        <li>Technician Intern at Onsite Computer Support</li>
+                        <li>Technician Intern</li>
                     </ul>
                 <li>Junior Achieve of Georgia</li>
                 <ul>
@@ -87,9 +163,22 @@ Web Programming
                 </ul>
             </ol>
             </ul>
+
+            <!---11) favorite quote-->
+            <div id="quote">
+                <h3>Favorite Quote</h3>
+                <p>"If you can't fly, then run.
+                    <br>
+                    If you can't run, then walk.
+                    <br>
+                    If you can't walk, then crawl,
+                    <br>
+                    but by all means, keep moving."
+                    <br>
+                    - Martin Luther King Jr. 
+                </p>
+            </div>
         </div>
-        
-        <div id="quote"></div>
 
         
     </body>
