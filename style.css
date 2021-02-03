@@ -2,9 +2,16 @@ h1{
     font-size: 50px;
 }
 
+.red{
+    color: red;
+    font-weight: bold;
+}
+
 body{
+    background-image: url('./images/sky.webp') ;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: sans-serif;
 }
 
 #heading{
@@ -17,6 +24,11 @@ body{
     height: 300px;
 }
 
+a:hover{
+    color: rgb(255, 153, 0);
+    font-size: 115%;
+}
+
 h2{
     font-size: 40px;
 }
@@ -25,7 +37,7 @@ h3{
     text-align: center;
     border: 2px solid white;
     border-radius: 3px;
-    width: 300px;
+    width: 320px;
 }
 
 #container{
@@ -37,17 +49,18 @@ h3{
 }
 
 #work{
-    width: 300px;
+    width: 320px;
     text-align: center;
 }
 
 #firstrow{
-    width:300px;
+    width:320px;
     height:50px;
     background-color: white;
     font-size: 17px;
     font-weight: bold;
 }
+
 tr:nth-child(odd){
     background-color:rgb(232, 255, 131);
 }
