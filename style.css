@@ -1,5 +1,7 @@
 h1{
     font-size: 50px;
+    color: rgba(26, 40, 240, 0.507);
+    border: 5px solid white;
 }
 
 .red{
@@ -31,6 +33,7 @@ a:hover{
 
 h2{
     font-size: 40px;
+    color: lightgoldenrodyellow;
 }
 
 h3{
@@ -38,6 +41,7 @@ h3{
     border: 2px solid white;
     border-radius: 3px;
     width: 320px;
+    
 }
 
 #container{
@@ -56,17 +60,17 @@ h3{
 #firstrow{
     width:320px;
     height:50px;
-    background-color: white;
+    background-color:lightgray;
     color: black;
     font-size: 17px;
     font-weight: bold;
 }
 
 tr:nth-child(odd){
-    background-color:rgb(232, 255, 131);
+    background-color:rgba(194, 152, 228, 0.733);
 }
 tr:nth-child(even){
-    background-color:rgb(133, 255, 249);
+    background-color:rgba(133, 255, 249, 0.671);
 }
 
 #quote{
